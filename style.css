@@ -6,19 +6,22 @@ body h1{
     text-align: center;
     font-size: 50px;
     font-weight: bold;
+    background-color: antiquewhite;
 }
 .pokemon-container {
     display: flex;
     flex-wrap: wrap;
+    gap: 50px;
 }
 .card{
-    border: 1px solid rgb(255, 255, 255);
+    border:transparent;
     border-radius: 10px;
-    box-shadow: 0px 5px 10px rgb(226, 159, 172);
+    box-shadow: 0px 5px 10px rgb(66, 61, 62);
     width: 300px;
     height: 400px;
     text-align: center;
-    background-color: azure;
+    background-color: rgb(195, 226, 226);
+    
 }
 .card img{
     width: 100%;
@@ -26,7 +29,33 @@ body h1{
 }
 
 ul{
+    line-height: 1.5;
     padding: 0;
 }
+.pokemon-normal{
+    background-color: #727272;
+}
+.pokemon-electric{
+    background-color: #fc3;
+}
+
+.pokemon-bug{
+    background-color: #83901a;
+}
+.pokemon-flying{
+    background-color: #89f;
 
 
+}
+.pokemon-grass{
+    background-color: #5cb737;
+
+
+}
+.pokemon-fire{
+    background-color: #f42;
+
+}
+.pokemon-poison{
+    background-color: #a59
+}
