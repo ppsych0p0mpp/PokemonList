@@ -69,6 +69,9 @@ ul{
 .pokemon-fighting{
     background-color: #b54
 }
+.pokemon-ground{
+    background-color: #db5;
+}
 
 .pokemon-id{
     font-size: 15px;
@@ -85,6 +88,7 @@ span{
 }
 .card  :hover{
         transform: scale(1.05,1);
+        cursor: pointer;
 }
 
 
