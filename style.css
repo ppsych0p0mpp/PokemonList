@@ -1,3 +1,4 @@
+
 *{
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
@@ -9,6 +10,8 @@ body h1{
     text-align: center;
     font-size: 70px;
     font-weight: bold;
+    color: rgb(255, 240, 240);
+    text-shadow: 1px 5px 10px black;
 
 }
 .pokemon-container {
@@ -34,43 +37,78 @@ body h1{
 }
 
 ul{
-    line-height: 1.5;
+    line-height: 1.7;
     padding: 0;
 }
 .pokemon-normal{
+    box-shadow: 0px 3px 5px  rgb(26, 23, 24);
+    padding: 5px 10px;
+    border-radius: 5px;
     background-color: #727272;
 }
 .pokemon-electric{
+    box-shadow: 0px 3px 5px  rgb(26, 23, 24);
+    padding: 5px 10px;
+    border-radius: 5px;
     background-color: #fc3;
 }
 
 .pokemon-bug{
     background-color: #83901a;
+    box-shadow: 0px 3px 5px rgb(26, 23, 24);
+    padding: 5px 10px;
+    border-radius: 5px;
 }
 .pokemon-flying{
     background-color: #89f;
+    box-shadow: 0px 3px 5px  rgb(26, 23, 24);
+    padding: 5px 10px;
+    border-radius: 5px;
 }
 .pokemon-grass{
     background-color: #5cb737;
+    box-shadow: 0px 3px 5px  rgb(26, 23, 24);
+    padding: 5px 10px;
+    border-radius: 5px;
 }
 .pokemon-fire{
     background-color: #f42;
+    box-shadow: 0px 3px 5px  rgb(26, 23, 24);
+    padding: 5px 10px;
+    border-radius: 5px;
 
 }
 .pokemon-poison{
-    background-color: #a59
+    background-color: #a59;
+    box-shadow: 0px 3px 5px  rgb(26, 23, 24);
+    padding: 5px 10px;
+    border-radius: 5px;
+
+    
 }
 .pokemon-water{
     background-color: #0080ff;
+    box-shadow: 0px 3px 5px  rgb(26, 23, 24);
+    padding: 5px 10px;
+    border-radius: 5px;
 }
 .pokemon-ice{
-    background-color: #6cf
+    background-color: #6cf;
+    box-shadow: 0px 3px 5px  rgb(26, 23, 24);
+    padding: 5px 10px;
+    border-radius: 5px;
 }
 .pokemon-fighting{
-    background-color: #b54
+    background-color: #b54;
+    box-shadow: 0px 3px 5px  rgb(26, 23, 24);
+    padding: 5px 10px;
+    border-radius: 5px;
 }
 .pokemon-ground{
     background-color: #db5;
+    box-shadow: 0px 3px 5px  rgb(26, 23, 24);
+    padding: 5px 10px;
+    border-radius: 5px;
 }
 
 .pokemon-id{
@@ -84,7 +122,10 @@ ul{
     font-weight: bold;
 }
 span{
-    color: aliceblue;
+    color: rgb(255, 255, 255);
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, .7);
+    background: #dbdbdb;
+    text-transform: uppercase;
 }
 .card  img:hover{
         transform: scale(1.05,1);
